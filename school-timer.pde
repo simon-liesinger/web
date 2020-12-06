@@ -9,6 +9,6 @@ void setup()
 }
 
 void draw(){
-    text("Hello web!",20,20);
-    println("Hello ErrorLog!");
+    var now = Date.now();
+    text (now.getDate() + now.getHours() + now.getMinutes());
 }
